@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div>
+                    <label>Username : </label>
+                    <input type="text" name="Username" id="Username" required
+                    pattern="[A-Za-z ]{3,}"
+                    title="Name should contain only letters and at least 3 letters">
+                </div>
+                <div>
+                    <label>Email : </label>
+                    <input type="email" name="Email" id="email" required
+                    pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+                    title="Enter a valid email (example: abc@gmail.com)">
+                </div>
+                <div>
+                    <label>Mobile : </label>
+                    <input type="tel" name="Mobile" id="Mobile" required
+                    pattern="[0-9]{10}" 
+                    title="Phone no. must be exactly 10 digits">
+                </div>
+                 <div>
+                    <label>Message : </label>
+                    <textarea name="Message" id="Message" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
