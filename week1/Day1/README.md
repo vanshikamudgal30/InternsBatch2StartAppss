@@ -1,33 +1,26 @@
-Day 1 – HTML Basics
-Created a Personal Portfolio Page
-Added sections:
-About
-Projects
-Contact
-Implemented:
-Semantic HTML (<section>, <article>, <nav>)
-Navigation bar with anchor links
-Structured layout with meaningful tags
-Placeholder content for projects and contact
+# 🌐 Day 1 – HTML Basics
 
-📚 Concepts Covered
-HTML Tags
-Semantic HTML
-Page Structure
+Created a **personal portfolio page** with:
 
-🎨 Day 1 – CSS Styling
-Styled the portfolio using CSS
-Used:
-Flexbox for layout
-Custom fonts (Google Fonts)
-Color palette for consistency
-Enhanced UI with:
-Hover effects
-Button styling
-Smooth transitions
+* About, Projects, Contact sections
+* Navigation bar using `<nav>`
+* Anchor links for section navigation
 
-📚 Concepts Covered
+📚 Learned:
 
-CSS Selectors
-Flexbox
-Colors & Typography
+* Semantic HTML (`<section>`, `<article>`)
+* Page structure & accessibility basics
+
+# 🎨 Day 1 – CSS Styling
+
+Styled the portfolio using **CSS & Flexbox**:
+
+* Layout using Flexbox
+* Custom fonts & colors
+* Hover effects & transitions
+
+📚 Learned:
+
+* CSS selectors
+* Flexbox basics
+* Fonts & spacing
