@@ -38,7 +38,10 @@ nav a{
 .layout{
    display: grid;
    flex:1;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 1fr;
+   grid-template-areas: 
+   "sidebar"
+   "main";
    gap:20px;
    padding:20px;
 }
@@ -46,11 +49,13 @@ nav a{
 .main{
     background: #f4f4f4;
     padding:20px;
+    grid-area: main;
 }
 
 .sidebar{
     background: #ddd;
     padding: 20px;
+    grid-area: sidebar;
 }
 
 .footer{
@@ -69,6 +74,7 @@ nav a{
 
     .layout{
         grid-template-columns: 2fr 1fr;
+        grid-template-areas: "main sidebar";
     }
 }
 
