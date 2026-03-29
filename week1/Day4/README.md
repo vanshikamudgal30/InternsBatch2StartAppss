@@ -6,6 +6,6 @@ Used semantic HTML and custom styling
 Made the layout responsive with CSS
 
 📚 Learned:
-Page structuring
-CSS layout design
-Typography and spacing
+--Page structuring
+--CSS layout design
+--Typography and spacing
