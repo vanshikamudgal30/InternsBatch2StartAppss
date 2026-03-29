@@ -1,11 +1,11 @@
 📄 Day 4 – HTML + CSS Page Creation
 
-Created a webpage based on a design reference
-Used semantic HTML structure
-Styled using CSS with custom fonts and images
-Made the layout responsive for different screen sizes
+Built a webpage based on a given design reference using semantic HTML and CSS.
+Created structured sections like header, content, and footer with proper styling.
+Implemented a responsive layout to ensure compatibility across devices.
 
 📚 Learned:
-Page structuring
-CSS layout design
-Typography and spacing
+• Semantic HTML structure
+• CSS layout and styling techniques
+• Typography, spacing, and alignment
+• Responsive design principles
