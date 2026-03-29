@@ -1,6 +1,7 @@
-📄 DAY 4 – HTML & CSS WEBPAGE CREATION 
+📄 DAY 4 – HTML & CSS WEBPAGE CREATION (RESPONSIVE DESIGN BASED ON DESIGN REFERENCE)
 
 Key Points:
+
 • Created a webpage using HTML and CSS
 • Used semantic tags like header, section, and footer
 • Structured the layout into multiple sections
@@ -10,6 +11,7 @@ Key Points:
 • Maintained consistency with the design reference
 
 📚 Learned:
+
 • Semantic HTML
 • CSS layout techniques
 • Responsive design
