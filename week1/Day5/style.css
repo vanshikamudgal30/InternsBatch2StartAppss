@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(90deg, #8c83b7 0%, #354d89 100%);
+  background: linear-gradient(90deg, #554b83 0%, #354d89 100%);
   color: black;;
   text-align: center;
   margin-top: 100px;
 }
 
 .container {
-  background: linear-gradient(90deg,rgb(163, 196, 209) 0%, rgb(221, 234, 226) 50%, rgb(71, 70, 60) 100%);
+  background: linear-gradient(90deg,rgb(25, 79, 100) 0%, rgb(235, 244, 238) 50%, rgb(204, 201, 171) 100%);
   padding: 30px;
   border-radius: 10px;
   display: inline-block;
