@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #8c83b7 0%, #354d89 100%);
+  color: black;;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  background: linear-gradient(90deg,rgb(163, 196, 209) 0%, rgb(221, 234, 226) 50%, rgb(71, 70, 60) 100%);
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#increment {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffcccb;
+}
