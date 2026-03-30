@@ -8,27 +8,41 @@ During this week, I worked on building a strong base in web development by creat
 
 # 🛠️ What I Worked On
 Creating structured web pages using HTML
+
 Styling layouts using CSS (Flexbox & Grid)
+
 Building responsive designs with media queries
+
 Designing UI based on reference layouts
+
 Developing interactive features using JavaScript
+
 Implementing DOM manipulation and event handling
+
 Building a Counter App with increment/decrement functionality
 
 
 # 💡 Key Concepts Learned
 Semantic HTML and page structure
+
 CSS layouts and responsive design
+
 Flexbox vs Grid
+
 Form handling and validation
+
 JavaScript basics (functions, variables, events)
+
 Closures and scope
+
 DOM manipulation
 
 
 # 🛠️ Tech Stack
 HTML5
+
 CSS3
+
 JavaScript
 
 
