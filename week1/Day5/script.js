@@ -35,9 +35,9 @@ const incBtn = document.getElementById("increment");
 const decBtn = document.getElementById("decrement");
 
 //this fun updates no. on screen
-function render(result) {
-  countDisplay.textContent = result.value;
-  messageDisplay.textContent = result.message;
+function render(res) {
+  countDisplay.textContent = res.value;
+  messageDisplay.textContent = res.message;
 }
 
 function handleIncrement() {
