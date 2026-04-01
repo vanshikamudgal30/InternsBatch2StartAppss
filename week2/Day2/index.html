@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <h3>Filter</h3>
+            <label>Category</label>
+            <select id="categoryFilter">
+                <option value="all">All</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Electronics">Electronics</option>
+            </select>
+
+            <label>Max Price</label>
+            <input type="number" id="priceFilter" placeholder="Enter price">
+        </div>
+
+        <div class="products">
+
+            <div class="controls">
+                <input type="text" id="search" placeholder="Search product">
+
+                <select id="sort">
+                    <option value="default">Sort</option>
+                    <option value="low">Low to High</option>
+                    <option value="high">High to Low</option>
+                </select>
+
+                <button onclick="setView('grid')">Grid</button>
+                <button onclick="setView('list')">List</button>
+            </div>
+
+            <div id="productContainer" class="grid"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
