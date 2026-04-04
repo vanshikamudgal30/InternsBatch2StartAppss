@@ -1,52 +1,41 @@
-# 🚀 Week 1 – Web Development
+# 🚀 My Web Development Progress
 
-This folder showcases my Week 1 progress in web development, focusing on building a strong foundation in HTML, CSS, and JavaScript. It includes hands-on projects demonstrating page structure, responsive design, and basic interactivity.
+This repository captures my journey of learning and building in web development. It includes practice code, mini projects, and full implementations that reflect my growing understanding of frontend and backend technologies.
 
-## 📚 Overview
-During this week, I worked on building a strong base in web development by creating responsive layouts, designing UI components, and adding interactivity using JavaScript.
+## 🧑‍💻 Technologies I Work With
 
-## 🛠️ What I Worked On
-Creating structured web pages using HTML
+Frontend Development:
+HTML, CSS, JavaScript (ES6+)
 
-Styling layouts using CSS (Flexbox & Grid)
+Backend Development:
+Node.js, Express.js
 
-Building responsive designs with media queries
+Database:
+MongoDB
 
-Designing UI based on reference layouts
+Tools & Environment:
+Git, GitHub, VS Code
 
-Developing interactive features using JavaScript
+## 📁 Folder Breakdown
+HTML/         → Markup and page structure  
+CSS/          → Styling and layout design  
+JavaScript/   → Logic building and interactive features  
+ 
+## 📚 How I’m Learning
+Practicing coding regularly to improve logic building
+Creating projects to apply concepts practically
+Using GitHub to maintain and track my work
+Learning from mistakes and improving code quality
 
-Implementing DOM manipulation and event handling
+## 🎯 Future Plans
+Build more advanced and real-world applications
 
-Building a Counter App with increment/decrement functionality
+Improve backend and database integration skills
 
-## 💡 Key Concepts Learned
-Semantic HTML and page structure
+Focus on writing clean and optimized code
 
-CSS layouts and responsive design
+## 🤝 Get in Touch
 
-Flexbox vs Grid
+I’m always open to suggestions and collaboration. Feel free to explore the repository and share your feedback!
 
-Form handling and validation
-
-JavaScript basics (functions, variables, events)
-
-Closures and scope
-
-DOM manipulation
-
-## 🛠️ Tech Stack
-HTML5
-
-CSS3
-
-JavaScript
-
-## 🎯 Outcome
-By the end of Week 1, I gained a solid understanding of:
-
-How to build and structure web pages 
-
-How to design responsive and user-friendly interfaces 
-
-How to add interactivity using JavaScript
+✨ Learning, building, and improving one project at a time.
