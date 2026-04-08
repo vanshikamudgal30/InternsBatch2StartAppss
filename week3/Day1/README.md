@@ -22,6 +22,7 @@ npm create vite@latest
 Select:
 
 Framework: React
+
 Variant: JavaScript
 
 2. Install Dependencies
