@@ -1,0 +1,33 @@
+.product-container{
+    background-color: #c67e7e;
+    padding:20px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    margin:1rem;
+    width: 250px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#product-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#product-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8%;
+    object-fit: cover;
+}
