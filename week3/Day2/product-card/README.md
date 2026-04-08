@@ -1,16 +1,57 @@
-# React + Vite
+# 🧠 Week 3 – Day 2: Props & State (Product Card Component)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This project is a Product Card Component built using React. It demonstrates the use of props to create reusable components. Product details such as name, price, and image are passed from a parent component to the ProductCard component. This helps in rendering multiple product cards dynamically with different data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite
 
-## Expanding the ESLint configuration
+JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS
+
+## ⚙️ Installation & Setup
+
+1. Create Vite App
+
+npm create vite@latest
+
+Select:
+
+Framework: React
+
+Variant: JavaScript
+
+2. Install Dependencies
+
+cd project-name
+npm install
+
+3. Run the App
+
+npm run dev
+
+## 📚 Learned
+Understanding and using props in React
+
+Passing data from parent to child components
+
+Accessing props inside a component
+
+Creating reusable components
+
+Rendering multiple components with different data
+
+Basic concept of component composition
+
+Introduction to default props
+
+Understanding conditional rendering in React
+
+Difference between props and state
+
+Limitations of props (read-only) and data flow direction
