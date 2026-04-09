@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container{
+  background: white;
+  padding:25px;
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ea1d1d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: #9bceeb;
+  color: rgb(19, 19, 19);
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #57a06c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgb(232, 192, 192);
+  margin: 10px auto;
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color:black;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s ease;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(7483%) hue-rotate(356deg) brightness(95%) contrast(119%);
+}
