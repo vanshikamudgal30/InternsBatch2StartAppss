@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     gap:12px;
+    padding-top: 4px;
 }
 
 .search-bar input{
