@@ -1,16 +1,57 @@
-# React + Vite
+# ✅ Week 3 – Day 3: Lists & Forms (To-Do App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+This project is a To-Do App built using React. It demonstrates how to manage user input using controlled components, handle form submission, and dynamically render a list of tasks using state. Users can add tasks through an input field, and the tasks are displayed instantly in a list format. This project helps in understanding how React handles forms and lists efficiently.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Vite
 
-## React Compiler
+JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+CSS
 
-## Expanding the ESLint configuration
+## ⚙️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create Vite App
+
+npm create vite@latest
+
+Select:
+
+Framework: React
+
+Variant: JavaScript
+
+Install Dependencies
+
+cd project-name
+
+npm install
+
+Run the App
+
+npm run dev
+
+## 📚 Learned
+
+Understanding controlled components in React
+
+Handling input fields using state
+
+Managing form submission with onSubmit
+
+Using preventDefault to stop page reload
+
+Rendering lists dynamically using map()
+
+Importance of key prop in list rendering
+
+Managing multiple states using useState
+
+Clearing input field after submission
+
+Basic understanding of data flow in React
+
+Improving user interaction with forms
