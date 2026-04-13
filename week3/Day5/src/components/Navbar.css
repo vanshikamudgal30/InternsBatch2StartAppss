@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    color: rgb(176, 170, 170);
+   display: flex;
+   justify-content: space-between;
+   padding-right: 10px;
+   background-color: rgb(132, 122, 164);
+   height: 40px;
+   padding-top:20px;
+   margin-top: 8px;;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,66 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #34658f, #94a8a9);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  margin: 20px auto;
+  width: 60%;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+}
+
+.card {
+  background: rgb(248, 245, 245);
+  padding: 25px;
+  width: 250px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(28, 17, 17, 0.1);
+}
+
+.extra {
+  text-align: center;
+  padding: 50px;
+  background: #837676;
+  color: white;
+}
+
+.extra button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #7bcfd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
