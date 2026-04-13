@@ -1,16 +1,69 @@
-# React + Vite
+# 🌍 Week 3 – Day 5: Routing + Mini Blog App (React Router) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This project is a Mini Blog Application built using React that demonstrates the concept of routing using React Router DOM.
+The app includes multiple pages such as Home, About, and Blog, and also supports dynamic routing to display individual blog details using URL parameters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It helps in understanding how navigation works in a Single Page Application (SPA) without page reloads.
 
-## React Compiler
+## 🧰 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript (ES6+)
+
+CSS
+
+React Router DOM
+
+## ⚙️ Installation & Setup
+
+1️⃣ Create Vite App
+
+npm create vite@latest
+
+Select:
+
+Framework: React
+
+Variant: JavaScript
+
+2️⃣ Install Dependencies
+
+cd project-name
+
+npm install
+
+3️⃣ Install React Router DOM
+
+npm install react-router-dom
+
+4️⃣ Run the App
+
+npm run dev
+
+## 📚 Learned
+Understanding React Router
+
+Creating multiple routes in React
+
+Setting up BrowserRouter, Routes, and Route
+
+Navigating between pages using Link and NavLink
+
+Creating dynamic routes using :id
+
+
+Using useParams() to access route parameters
+
+Building a multi-page SPA without reload
+
+Understanding client-side routing concept
+
+Structuring pages in a React project
+
+Improving UI navigation experience
+
